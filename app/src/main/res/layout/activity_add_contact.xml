@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp"
+        tools:context=".ui.addContact.AddContactFragment">
+
+        <ImageView
+            android:id="@+id/ivUser"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/placeholder" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="32dp"
+            android:drawableStart="@drawable/user"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="32dp"
+            android:drawableStart="@drawable/phone"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/mail"
+            android:drawablePadding="10dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30dp"
+            android:drawableStart="@drawable/notes"
+            android:drawablePadding="10dp"
+            android:hint="@string/notes"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_30dp"
+            android:contentDescription="@string/add_contact"
+            android:src="@drawable/check"
+            android:text="@string/add_contact"
+            app:backgroundTint="#E700C3" />
+    </LinearLayout>
+</ScrollView>

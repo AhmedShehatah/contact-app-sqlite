@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ContactBook</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image">image</string>
+    <string name="welcome_to_contact_book">Welcome To Contact book</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="register">Register</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="notes">Notes</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="ab">AB</string>
+    <string name="edit">Edit</string>
+    <string name="get_started">Get Started</string>
+    <string name="nothing_to_show">Nothing To Show</string>
+    <string name="mobile">moblie</string>
+    <string name="home">home</string>
+    <string name="work">work</string>
+    <string name="others">Others</string>
+
+
+    <string-array name="contact_type">
+        <item>Mobile</item>
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+    </string-array>
+    <string name="title_activity_splash">SplashActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
